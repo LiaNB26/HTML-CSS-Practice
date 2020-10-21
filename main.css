@@ -1,0 +1,116 @@
+#product-overview {
+  width: 100%;
+  background: url("freedom.jpg");
+  height: 528px;
+  padding: 10px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#product-overview h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+  padding: 0 20px;
+  margin: 30px 0;
+}
+
+.section-title {
+  color: #00afb9;
+  text-align: center;
+}
+
+.plan__list {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.plan {
+  background: #eaac8b;
+  text-align: center;
+  padding: 16px;
+  margin: 8px;
+  display: inline-block;
+  width: 30%;
+  vertical-align: middle;
+}
+
+.plan--highlighted {
+  background: #00afb9;
+  color: white;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.plan__annotation {
+  background: white;
+  color: #00afb9;
+  padding: 8px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+}
+
+.plan__title {
+  color: #6d597a;
+}
+
+.plan__price {
+  color: #1c2541;
+}
+
+.plan--highlighted .plan__title {
+  color: white;
+}
+
+.plan--highlighted .plan__price {
+  color: #0b132b;
+}
+
+.plan__features {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.plan__feature {
+  margin: 8px 0;
+}
+
+#key-features {
+  background: #5bc0be;
+  margin-top: 80px;
+  padding: 16px;
+}
+
+#key-features .section-title {
+  color: white;
+  margin: 32px;
+}
+
+.key-feature__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.key-feature {
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+}
+
+.key-feature__image {
+  background: white;
+  width: 128px;
+  height: 128px;
+  border: 2px solid #424242;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.key-feature__description {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+}
