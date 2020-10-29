@@ -36,8 +36,8 @@ main {
   position: absolute;
   top: 0px;
   right: 0px;
-  margin: 1.2rem;
-  font-size: 1rem;
+  margin: 0.8rem;
+  font-size: 0.8rem;
   color: white;
   background-color: #139e2a;
   padding: 0.5rem;
@@ -78,4 +78,27 @@ main {
 
 #premium {
   background: #f3cbb6d0;
+}
+
+@media (min-width: 40rem) {
+  main {
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 1500px) {
+  .package {
+    border-left: 4px solid #1c2541;
+  }
+
+  #free {
+    border-right: 4px solid #1c2541;
+  }
+
+  #free:hover,
+  #free:active {
+    border-right-color: #139e2a;
+  }
 }
